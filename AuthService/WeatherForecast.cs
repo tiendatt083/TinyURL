@@ -1,4 +1,4 @@
-namespace TinyURL
+namespace AuthService
 {
     public class WeatherForecast
     {

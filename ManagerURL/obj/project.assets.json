@@ -453,11 +453,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\FPT\\Documents\\KY 6\\AMD-FINAL\\ManagerURL\\ManagerURL.csproj",
+      "projectUniqueName": "C:\\Users\\FPT\\Documents\\KY 6\\TinyURL\\ManagerURL\\ManagerURL.csproj",
       "projectName": "ManagerURL",
-      "projectPath": "C:\\Users\\FPT\\Documents\\KY 6\\AMD-FINAL\\ManagerURL\\ManagerURL.csproj",
+      "projectPath": "C:\\Users\\FPT\\Documents\\KY 6\\TinyURL\\ManagerURL\\ManagerURL.csproj",
       "packagesPath": "C:\\Users\\FPT\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\FPT\\Documents\\KY 6\\AMD-FINAL\\ManagerURL\\obj\\",
+      "outputPath": "C:\\Users\\FPT\\Documents\\KY 6\\TinyURL\\ManagerURL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

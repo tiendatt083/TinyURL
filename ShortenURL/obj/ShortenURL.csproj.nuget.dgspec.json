@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\FPT\\Documents\\KY 6\\AMD-FINAL\\ShortenURL\\ShortenURL.csproj": {}
+    "C:\\Users\\FPT\\Documents\\KY 6\\TinyURL\\ShortenURL\\ShortenURL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\FPT\\Documents\\KY 6\\AMD-FINAL\\ShortenURL\\ShortenURL.csproj": {
+    "C:\\Users\\FPT\\Documents\\KY 6\\TinyURL\\ShortenURL\\ShortenURL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\FPT\\Documents\\KY 6\\AMD-FINAL\\ShortenURL\\ShortenURL.csproj",
+        "projectUniqueName": "C:\\Users\\FPT\\Documents\\KY 6\\TinyURL\\ShortenURL\\ShortenURL.csproj",
         "projectName": "ShortenURL",
-        "projectPath": "C:\\Users\\FPT\\Documents\\KY 6\\AMD-FINAL\\ShortenURL\\ShortenURL.csproj",
+        "projectPath": "C:\\Users\\FPT\\Documents\\KY 6\\TinyURL\\ShortenURL\\ShortenURL.csproj",
         "packagesPath": "C:\\Users\\FPT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\FPT\\Documents\\KY 6\\AMD-FINAL\\ShortenURL\\obj\\",
+        "outputPath": "C:\\Users\\FPT\\Documents\\KY 6\\TinyURL\\ShortenURL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

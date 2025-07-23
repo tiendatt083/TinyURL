@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VF2o1fX/Y0E=",
+  "dgSpecHash": "aIOfv2NuexE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\FPT\\Documents\\KY 6\\AMD-FINAL\\QRService\\QRService.csproj",
+  "projectFilePath": "C:\\Users\\FPT\\Documents\\KY 6\\TinyURL\\QRService\\QRService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\FPT\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\FPT\\.nuget\\packages\\microsoft.openapi\\1.6.14\\microsoft.openapi.1.6.14.nupkg.sha512",
