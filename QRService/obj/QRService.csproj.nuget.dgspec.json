@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\FPT\\Documents\\KY 6\\TinyURL\\QRService\\QRService.csproj": {}
+    "D:\\GW\\AMD201\\AMD\\QrService\\QrService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\FPT\\Documents\\KY 6\\TinyURL\\QRService\\QRService.csproj": {
+    "D:\\GW\\AMD201\\AMD\\QrService\\QrService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\FPT\\Documents\\KY 6\\TinyURL\\QRService\\QRService.csproj",
-        "projectName": "QRService",
-        "projectPath": "C:\\Users\\FPT\\Documents\\KY 6\\TinyURL\\QRService\\QRService.csproj",
-        "packagesPath": "C:\\Users\\FPT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\FPT\\Documents\\KY 6\\TinyURL\\QRService\\obj\\",
+        "projectUniqueName": "D:\\GW\\AMD201\\AMD\\QrService\\QrService.csproj",
+        "projectName": "QrService",
+        "projectPath": "D:\\GW\\AMD201\\AMD\\QrService\\QrService.csproj",
+        "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
+        "outputPath": "D:\\GW\\AMD201\\AMD\\QrService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\FPT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -45,12 +44,16 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "QRCoder": {
+              "target": "Package",
+              "version": "[1.6.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
@@ -75,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
