@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QN69zi84MlM=",
+  "dgSpecHash": "/d7AiyIHMEw=",
   "success": true,
-  "projectFilePath": "D:\\GW\\AMD201\\AMD\\QrService\\QrService.csproj",
+  "projectFilePath": "D:\\GW\\AMD201\\TinyURL\\QRService\\QRService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\asus\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\microsoft.openapi\\1.6.14\\microsoft.openapi.1.6.14.nupkg.sha512",
