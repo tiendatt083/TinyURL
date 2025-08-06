@@ -1,2 +1,5 @@
 # Visual Studio cache & user files
 .vs/
+bin/
+obj/
+AMD/
