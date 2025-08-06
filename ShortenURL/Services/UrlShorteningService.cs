@@ -48,7 +48,7 @@ namespace ShortenURL.Services
 
             if (existingMapping != null)
             {
-                var baseUrl = _configuration["BaseUrl"] ?? "https://localhost:7002";
+                var baseUrl = _configuration["BaseUrl"] ?? "https://localhost:7098";
                 return new ShortenResponse
                 {
                     Success = true,
@@ -76,7 +76,7 @@ namespace ShortenURL.Services
 
             _urlMappings.Add(mapping);
 
-            var shortUrl = $"{_configuration["BaseUrl"] ?? "https://localhost:7002"}/{shortCode}";
+            var shortUrl = $"{_configuration["BaseUrl"] ?? "https://localhost:7098"}/{shortCode}";
 
             return new ShortenResponse
             {
