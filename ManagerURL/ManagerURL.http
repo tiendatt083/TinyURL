@@ -1,4 +1,47 @@
-@ManagerURL_HostAddress = http://localhost:5237
+@ManagerURL_HostAddress = https://localhost:7003
+
+### Get all URLs
+GET {{ManagerURL_HostAddress}}/api/manage/urls?page=1&pageSize=10
+
+### Get URLs for specific user
+GET {{ManagerURL_HostAddress}}/api/manage/urls?userId=1&page=1&pageSize=10
+
+### Get URL details
+GET {{ManagerURL_HostAddress}}/api/manage/urls/abc123
+
+### Update URL
+PUT {{ManagerURL_HostAddress}}/api/manage/urls/abc123?userId=1
+Content-Type: application/json
+
+{
+  "originalUrl": "https://www.updated-url.com",
+  "expiresAt": "2024-12-31T23:59:59Z",
+  "isActive": true
+}
+
+### Delete URL
+DELETE {{ManagerURL_HostAddress}}/api/manage/urls/abc123?userId=1
+
+### Get URL analytics
+GET {{ManagerURL_HostAddress}}/api/manage/urls/abc123/analytics?userId=1
+
+### Record click
+POST {{ManagerURL_HostAddress}}/api/manage/urls/abc123/click
+
+### Bulk operations
+POST {{ManagerURL_HostAddress}}/api/manage/bulk?userId=1
+Content-Type: application/json
+
+{
+  "shortCodes": ["abc123", "def456"],
+  "operation": "deactivate"
+}
+
+### Get dashboard stats
+GET {{ManagerURL_HostAddress}}/api/manage/dashboard?userId=1
+
+### Export to CSV
+GET {{ManagerURL_HostAddress}}/api/manage/export/csv?userId=1erURL_HostAddress = http://localhost:5237
 
 GET {{ManagerURL_HostAddress}}/weatherforecast/
 Accept: application/json

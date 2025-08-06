@@ -1,4 +1,12 @@
-@QrService_HostAddress = http://localhost:5167
+@QrService_HostAddress = https://localhost:7196
+
+### Generate QR Code for short URL
+GET {{QrService_HostAddress}}/api/qr/abc123/qr
+Accept: image/png
+
+### Generate QR Code for custom URL
+GET {{QrService_HostAddress}}/api/qr/mygithub/qr
+Accept: image/pngvice_HostAddress = http://localhost:5167
 
 GET {{QrService_HostAddress}}/weatherforecast/
 Accept: application/json

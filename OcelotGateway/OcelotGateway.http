@@ -1,4 +1,29 @@
-@OcelotGateway_HostAddress = http://localhost:5216
+@OcelotGateway_HostAddress = https://localhost:7210
+
+### Test Gateway - Auth Service
+POST {{OcelotGateway_HostAddress}}/gateway/auth/auth/login
+Content-Type: application/json
+
+{
+  "username": "admin",
+  "password": "admin123"
+}
+
+### Test Gateway - Shorten URL Service
+POST {{OcelotGateway_HostAddress}}/gateway/shorten/shorten
+Content-Type: application/json
+
+{
+  "originalUrl": "https://www.google.com",
+  "userId": 1
+}
+
+### Test Gateway - Manager Service
+GET {{OcelotGateway_HostAddress}}/gateway/manage/manage/urls?userId=1
+
+### Test Gateway - QR Service
+GET {{OcelotGateway_HostAddress}}/gateway/qr/qr/abc123/qr
+Accept: image/pngtGateway_HostAddress = http://localhost:5216
 
 GET {{OcelotGateway_HostAddress}}/weatherforecast/
 Accept: application/json

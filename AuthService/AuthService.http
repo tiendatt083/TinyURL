@@ -1,4 +1,29 @@
-@AuthService_HostAddress = http://localhost:5037
+@AuthService_HostAddress = https://localhost:7001
+
+### Test Auth Service Health
+GET {{AuthService_HostAddress}}/api/auth/validate
+
+### Register new user
+POST {{AuthService_HostAddress}}/api/auth/register
+Content-Type: application/json
+
+{
+  "username": "testuser",
+  "email": "test@example.com",
+  "password": "password123"
+}
+
+### Login user
+POST {{AuthService_HostAddress}}/api/auth/login
+Content-Type: application/json
+
+{
+  "username": "admin",
+  "password": "admin123"
+}
+
+### Get user by ID
+GET {{AuthService_HostAddress}}/api/auth/user/1ervice_HostAddress = http://localhost:5037
 
 GET {{AuthService_HostAddress}}/weatherforecast/
 Accept: application/json

@@ -1,4 +1,40 @@
-@ShortenURL_HostAddress = http://localhost:5002
+@ShortenURL_HostAddress = https://localhost:7002
+
+### Shorten URL
+POST {{ShortenURL_HostAddress}}/api/shorten
+Content-Type: application/json
+
+{
+  "originalUrl": "https://www.google.com",
+  "customAlias": "",
+  "expiresAt": null,
+  "userId": 1
+}
+
+### Shorten URL with custom alias
+POST {{ShortenURL_HostAddress}}/api/shorten
+Content-Type: application/json
+
+{
+  "originalUrl": "https://github.com",
+  "customAlias": "mygithub",
+  "userId": 1
+}
+
+### Redirect to original URL
+GET {{ShortenURL_HostAddress}}/api/shorten/abc123
+
+### Get URL stats
+GET {{ShortenURL_HostAddress}}/api/shorten/abc123/stats
+
+### Get user URLs
+GET {{ShortenURL_HostAddress}}/api/shorten/user/1
+
+### Check alias availability
+GET {{ShortenURL_HostAddress}}/api/shorten/check-alias/myalias
+
+### Delete URL
+DELETE {{ShortenURL_HostAddress}}/api/shorten/abc123?userId=1enURL_HostAddress = http://localhost:5002
 
 GET {{ShortenURL_HostAddress}}/weatherforecast/
 Accept: application/json
