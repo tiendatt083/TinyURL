@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ManagerURL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+abb53d7db7645457c53c6fc50bab4a88d07803f3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b512f6b053bc7cc4f14abc123a8fc3ab18eff4c0")]
 [assembly: System.Reflection.AssemblyProductAttribute("ManagerURL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ManagerURL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

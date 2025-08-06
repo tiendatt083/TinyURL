@@ -5,10 +5,10 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/Url/{code}/qr": {
+    "/api/QR/{code}/qr": {
       "get": {
         "tags": [
-          "Url"
+          "QR"
         ],
         "parameters": [
           {

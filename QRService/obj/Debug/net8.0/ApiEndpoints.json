@@ -1,8 +1,8 @@
 [
   {
-    "ContainingType": "QrService.Controllers.UrlController",
+    "ContainingType": "QrService.Controllers.QRController",
     "Method": "GetQrImage",
-    "RelativePath": "api/Url/{code}/qr",
+    "RelativePath": "api/QR/{code}/qr",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

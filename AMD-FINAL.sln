@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManagerURL", "ManagerURL\Ma
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthService", "AuthService\AuthService.csproj", "{017EF983-9BB6-464D-8362-75D92B76903B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OcelotGateway", "OcelotGateway\OcelotGateway.csproj", "{D02D694E-A37C-4627-91FF-39B2FDFDA2D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,8 +35,15 @@ Global
 		{017EF983-9BB6-464D-8362-75D92B76903B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{017EF983-9BB6-464D-8362-75D92B76903B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{017EF983-9BB6-464D-8362-75D92B76903B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D02D694E-A37C-4627-91FF-39B2FDFDA2D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D02D694E-A37C-4627-91FF-39B2FDFDA2D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D02D694E-A37C-4627-91FF-39B2FDFDA2D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D02D694E-A37C-4627-91FF-39B2FDFDA2D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {40470522-981A-4EC6-B513-35AF0DA5D605}
 	EndGlobalSection
 EndGlobal

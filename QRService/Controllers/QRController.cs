@@ -5,11 +5,11 @@ namespace QrService.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class UrlController : ControllerBase
+    public class QRController : ControllerBase
     {
         private readonly QrCodeService _qrService;
 
-        public UrlController(QrCodeService qrService)
+        public QRController(QrCodeService qrService)
         {
             _qrService = qrService;
         }

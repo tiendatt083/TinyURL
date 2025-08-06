@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "QRService\\QRService.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "OcelotGateway\\OcelotGateway.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
